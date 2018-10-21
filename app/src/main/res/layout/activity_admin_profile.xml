@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dawn"
+    tools:context=".AdminProfile">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Admin Profile"
+        android:textSize="24dp"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/btnAdParent"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:background="@color/lightOrange"
+        android:text="Add Parents"
+        />
+
+
+    <Button
+        android:id="@+id/btnSeeAtdnc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/lightOrange"
+        android:layout_centerInParent="true"
+        android:text="Send Notification" />
+
+    <Button
+        android:id="@+id/btnAdmnLogOut"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/lightOrange"
+        android:layout_marginBottom="153dp"
+        android:text="Log Out" />
+
+</RelativeLayout>

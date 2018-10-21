@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dawn"
+    tools:context=".ParentsLogin">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="Parents Login" />
+
+    <EditText
+        android:id="@+id/ParLogUname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:drawableLeft="@drawable/ic_person_black"
+        android:ems="10"
+        android:hint="User Name / Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ParLogUpass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="192dp"
+        android:drawableLeft="@drawable/ic_lock_black"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/PaLogBtnLogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="152dp"
+        android:background="@color/lightOrange"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/ParLogTxtFP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="227dp"
+        android:layout_toEndOf="@+id/textView"
+        android:text="Forgot Password ?"
+        android:textSize="14dp" />
+
+    <ProgressBar
+        android:id="@+id/PBParLog"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ParLogUname"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

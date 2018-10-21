@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">schoolproject</string>
+
+    <array name="board">
+        <item>sb</item>
+        <item>cbse</item>
+    </array>
+
+    <array name="StudClas">
+        <item>kg</item>
+        <item>prep</item>
+        <item>first</item>
+        <item>second</item>
+        <item>third</item>
+        <item>fourth</item>
+        <item>fifth</item>
+        <item>sixth</item>
+        <item>seventh</item>
+        <item>eighth</item>
+        <item>ninth</item>
+        <item>tenth</item>
+
+    </array>
+
+    <array name="Degree">
+        <item>Bachelor of Arts</item>
+        <item>Bachelor of Commerce</item>
+        <item>Bachelor of Science</item>
+        <item>Bachelor of Bussiness Administration</item>
+        <item>Any Diploma course</item>
+        <item>Master of Arts</item>
+        <item>Master of Commerce</item>
+        <item>Master of Science</item>
+
+    </array>
+
+
+</resources>

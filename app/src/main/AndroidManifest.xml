@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rosebuds.prasad.schoolproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="Rose Buds English School"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ParentsLogin" />
+        <activity android:name=".TeacherLogin" />
+        <activity android:name=".VisitorProfile" />
+        <activity android:name=".ParentsProfile" />
+        <activity android:name=".TeacherProfile" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".Add_Student" />
+        <activity android:name=".Student_Attendence" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".StudentStatus" />
+        <activity android:name=".AdminProfile" />
+        <activity android:name=".Add_Parent" />
+        <activity android:name=".See_Attendence" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo1" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity android:name=".TempNotification"></activity>
+    </application>
+
+</manifest>

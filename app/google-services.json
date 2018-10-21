@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "766032456660",
+    "firebase_url": "https://rosebudsenglishschool-cc454.firebaseio.com",
+    "project_id": "rosebudsenglishschool-cc454",
+    "storage_bucket": "rosebudsenglishschool-cc454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766032456660:android:a370aa57bd71a616",
+        "android_client_info": {
+          "package_name": "com.rosebuds.prasad.schoolproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766032456660-dhs15d0fhbevb714u6gvneghd57gvels.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTzxj56Y2NcXUePQyzzfBzUD5fmaq_gSg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
